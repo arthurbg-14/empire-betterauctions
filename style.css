@@ -1,0 +1,81 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgb(26, 28, 36);
+	margin: 0px;
+}
+
+.inputs {
+	display: flex;
+	position: fixed;
+	background-color: rgb(26, 28, 36);
+
+	width: 100%;
+	height: 100px;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+}
+
+.item-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.item-div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	width: 235px;
+	height: 230px;
+
+	margin: 10px;
+
+	border: 3px solid rgb(53, 57, 73);
+	border-radius: 0.8rem;
+	text-overflow: ellipsis;
+
+}
+
+.item-inf {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+
+	padding: 10px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-weight: bold;
+
+	background-color: rgb(53, 57, 73);
+	color: rgb(211, 211, 211)
+}
+
+.item-foot {
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: space-between;
+}
+
+.buy-button {
+	margin-left: 60px;
+	background-color: green;
+}
+
+img {
+	max-height: 120px;
+	padding: 20px;
+}
+
+label {
+	color: rgb(211, 211, 211)
+}

@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "csgoempire-api": "^1.1.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "http-proxy-middleware": "^2.0.6",
+    "nexe": "^4.0.0-rc.2",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}

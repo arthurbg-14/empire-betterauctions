@@ -1,0 +1,21 @@
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="inputs">
+		<input type="text" id="priceAbove" placeholder="Max Price Above">
+		<input type="text" id="searchBar" placeholder="Search Bar">
+		<input type="checkbox" id="statTrakCheckbox" checked>
+		<label for="statTrakCheckbox">StatTrak</label>
+		<input type="checkbox" id="uniqueCheckbox">
+		<label for="uniqueCheckbox">OnlyUnique</label>
+		<input type="checkbox" id="onlyPurchasable">
+		<label for="onlyPurchasable">OnlyPurchasable</label>
+
+	</div>
+	<div class="item-container" id="item_container">
+	</div>
+	<script src="index.js"></script>
+</body>
